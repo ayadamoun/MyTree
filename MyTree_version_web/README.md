@@ -25,14 +25,18 @@ Sur la page principale, l'utilisateur peut ajouter les membres de sa famille en 
     Ajout de l'ancêtre :
         Ajoutez d'abord l'ancêtre sans indiquer de Parent ID.
     Ajout des parents et de leur fratrie :
-        Ajoutez les parents et leurs frères et sœurs en spécifiant l'ID du parent comme Parent ID.
+        Ajoutez les parents et leurs frères et sœurs en spécifiant l'ID de leur parent comme Parent ID.
     Ajout des générations suivantes :
         Ajoutez-vous, vos frères et sœurs, et les générations suivantes en suivant la même logique.
+
+N.B: Les IDs doivent être nécessairement unique.
 
 Une fois ces étapes complétées, l'utilisateur peut visualiser son arbre généalogique.
 
 Instructions d'Exécution
+
 Côté Client: 
+
     Accédez au répertoire 'client' et exécutez la commande suivante : npm run dev
 
 Côté Serveur:
