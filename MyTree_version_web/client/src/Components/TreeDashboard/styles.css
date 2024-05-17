@@ -75,7 +75,6 @@
 .input-sexe,
 .input-date-naissance,
 .input-profession,
-.print-button,
 .input-photo {
   padding: 10px;
   border: 1px solid #ccc;
@@ -85,7 +84,7 @@
 .add-member-button,
 .next-step-button,
 .save-tree-button,
-.print-button,
+.print-buttton,
 .view-tree-button {
   padding: 10px 15px;
   margin-top: 10px;

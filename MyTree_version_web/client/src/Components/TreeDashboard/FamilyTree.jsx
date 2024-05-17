@@ -27,7 +27,7 @@ const FamilyTree = () => {
   useEffect(() => {
     if (members.length === 0 || !d3Container.current) return;
 
-    console.log("Members data:", members);
+    console.log("Members data:", members); 
 
     d3.select(d3Container.current).selectAll("*").remove();
 
@@ -82,7 +82,7 @@ const FamilyTree = () => {
       .style("align-items", "center")
       .append("img")
       .attr("src", d => {
-        console.log("Image path:", d.data.photoPath);
+        console.log("Image path:", d.data.photoPath);  // Vérifiez que le chemin de l'image est correct
         return d.data.photoPath;
       })
       .style("width", "100%")
@@ -156,12 +156,12 @@ const FamilyTree = () => {
       <button className="logout-button top-right" onClick={handleLogout}>
         Déconnexion
       </button>
-      <h1 className="page-title">Voici l'arbre généalogique de votre famille: </h1>
+      <h1 className="page-title">Voici l'arbre généalogique de votre famille</h1>
       <div ref={d3Container} className="d3-component"></div>
       <div className="buttons">
         <button className="add-member-button" onClick={handleAddMember}>Ajouter un autre membre</button>
         <button className="next-step-button" onClick={handleRestartFamily}>Recommencer avec une nouvelle famille</button>
-        <button className="print-button" onClick={handlePrint}>Imprimer votre arbre</button>
+        <button className="print-button" onClick={handlePrint}>Imprimer l'arbre</button>
       </div>
     </div>
   );
