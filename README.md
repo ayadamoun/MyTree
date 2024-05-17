@@ -37,6 +37,12 @@ N.B: Back-end pas completement fonctionnel pour la version mobile.
 
 Instructions d'Exécution:
 
+Pour la version web: 
+accédez au dossier MyTree_version_web, sur le répértoire "client" exécutez la commande: npm run dev, sur le répértoire "server" exécutez la commande: npm start.
+
+Pour la version mobile: 
+accédez au dossier MyTree_version_mobile et exécutez les commandes suivantes: 
+
 npm install -g cordova
 
 cordova platform add android
